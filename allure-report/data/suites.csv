@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","564","test_successful_user_auth_return_status_code_201","tests","2026-11-19","passed","2026-11-19","TestUserAuth","test_user_auth","",""
+"","550","Проверяем, что повторная регистрация пользователя возвращает статус код 400 и message описанием ошибки","tests","2026-11-19","passed","2026-11-19","TestUserCreating","test_user_creating","",""
+"","649","Проверяем, что авторизованный пользователь успешно редактирует своё объявление","tests","2026-11-19","passed","2026-11-19","TestAdvertisement","test_advertisement","",""
+"","531","Проверяем, что авторизованный пользователь успешно удаляет своё объявление","tests","2026-11-19","passed","2026-11-19","TestAdvertisement","test_advertisement","",""
+"","562","Проверяем, что создание объявления возвращает статус код 201 и все поля в ответе на запрос соответствуют тем, что были переданы","tests","2026-11-19","passed","2026-11-19","TestAdvertisement","test_advertisement","",""
+"","531","Проверяем, что новый пользователь успешно создается. Запрос возвращает: статус код 201 и id пользователя","tests","2026-11-19","passed","2026-11-19","TestUserCreating","test_user_creating","",""
+"","1188","Проверяем, что пользователь не может редактировать чужое объявление","tests","2026-11-19","passed","2026-11-19","TestAdvertisement","test_advertisement","",""
